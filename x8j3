@@ -6,7 +6,7 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("WScript.Shell").Run("reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d  https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg /f");	
+			var r = new ActiveXObject("WScript.Shell").Run("cmd.exe /c reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d  https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMDE2MzI4MF5BMl5BanBnXkFtZTgwNTkxODgxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg /f");	
 	
 		]]>
 </script>
